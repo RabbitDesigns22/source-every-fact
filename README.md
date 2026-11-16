@@ -30,7 +30,7 @@ With the skill, the agent builds a fact sheet before any copy or layout (fact, e
 With the [skills CLI](https://skills.sh):
 
 ```bash
-npx skills add RabbitDesigns22/source-every-fact
+npx skills@1.8.1 add https://github.com/RabbitDesigns22/source-every-fact/tree/d1b5d42e832750832bd22cdd898176403241f440
 ```
 
 Or manually: copy `skills/source-every-fact/` into `~/.claude/skills/` for all your projects, or into `.claude/skills/` for one project.
@@ -44,7 +44,7 @@ Or manually: copy `skills/source-every-fact/` into `~/.claude/skills/` for all y
 
 **Cada dato con su fuente.** Antes de diseñar, el agente arma una tabla con cada precio, teléfono, nombre y condición, y de dónde salió. En la pieza solo va lo que está en la tabla: nada de "desde", "pago único" o "envío aparte" si el cliente no lo dijo. La lee como la leería un cliente ("2 piezas 500" se lee "2500"), revisa los teléfonos dígito por dígito y abre el enlace de WhatsApp.
 
-Instalar: `npx skills add RabbitDesigns22/source-every-fact`
+Instalar: `npx skills@1.8.1 add https://github.com/RabbitDesigns22/source-every-fact/tree/d1b5d42e832750832bd22cdd898176403241f440`
 
 ## More skills from the same setup
 
